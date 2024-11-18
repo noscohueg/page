@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noscohueg Reservas</title>
+    <title>Rincon Azul Reservas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="estilos.css">
@@ -39,9 +39,9 @@
                                     <div class="invalid-feedback">Selecciona tus dias de estadia</div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="guests" class="form-label">Numero de huespedes</label>
+                                    <label for="guests" class="form-label">Número de huespedes</label>
                                     <input type="number" class="form-control" id="guests" min="1" required>
-                                    <div class="invalid-feedback">Ingresar numero de huspedes</div>
+                                    <div class="invalid-feedback">Ingresar número de huspedes</div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -84,7 +84,7 @@
                     <div class="d-flex flex-column gap-3">
                         <p><i class="bi bi-telephone"></i> +54 9 22227 61-7371</p>
                         <p><i class="bi bi-geo-alt"></i> Gral. Las Heras, Av. Villamayor, Buenos Aires, Argentina</p>
-                        <p><i class="bi bi-envelope"></i> hbrinconazul@gmail.com</p>
+                        <p><i class="bi bi-envelope"></i> HBrinconazul@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
         flatpickr("#dateRange", {
             mode: "range",
             minDate: "today",
-            dateFormat: "Y-m-d"
+            dateFormat: "d-m-Y"
         });
 
         document.getElementById("reservationForm").addEventListener("submit", function(e) {
